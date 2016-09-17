@@ -63,3 +63,5 @@ Include_Directories ("${PROJECT_BINARY_DIR}/Include")
 ##    サブディレクトリの追加。
 ##
 
+Add_SubDirectory (Lib)
+Add_SubDirectory (Bin)

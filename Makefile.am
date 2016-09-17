@@ -3,7 +3,7 @@
 ##    List of Directories.
 ##
 
-SUBDIRS         =
+SUBDIRS         =  Lib  Bin
 DIST_SUBDIRS    =  .CMake  $(SUBDIRS)
 
 ##

@@ -102,6 +102,8 @@ dnl
 
 AC_CONFIG_FILES([
     .CMake/Makefile
+    Bin/Makefile
+    Lib/Makefile
     Makefile
 ])
 
