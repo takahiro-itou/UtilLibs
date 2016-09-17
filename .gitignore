@@ -1,0 +1,16 @@
+
+
+Makefile
+Makefile.in
+Tests/Makefile.am
+*.h.in
+
+/.hg/
+/.Config/
+/.M4/InitAutomake.m4
+/Projects/
+/References/
+/aclocal.m4
+/autom4te.cache/
+/configure
+
