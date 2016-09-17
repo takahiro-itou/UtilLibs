@@ -17,3 +17,5 @@ Set (OUTPUT_RELEASE_SUFFIX   "Release")
 
 Add_SubDirectory (.Config)
 
+Add_SubDirectory (Common)
+

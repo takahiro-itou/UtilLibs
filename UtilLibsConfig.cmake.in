@@ -12,6 +12,7 @@
 ##
 
 Set (@PROJECT_NAME@_MODULE_DIRS_LIST
+        .Config  Common
 )
 
 ##----------------------------------------------------------------

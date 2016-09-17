@@ -105,6 +105,7 @@ AC_CONFIG_FILES([
     Bin/Makefile
     Lib/Makefile
     Lib/.Config/Makefile
+    Lib/Common/Makefile
     Lib/Tests/Makefile
     Makefile
 ])
