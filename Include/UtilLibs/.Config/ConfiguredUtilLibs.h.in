@@ -1,0 +1,41 @@
+//  -*-  coding: utf-8; mode: c++  -*-  //
+/*************************************************************************
+**                                                                      **
+**                      ---  Utility  Library  ---                      **
+**                                                                      **
+**          Copyright (C), 2001 - 2016, Takahiro Itou                   **
+**          All Rights Reserved.                                        **
+**                                                                      **
+*************************************************************************/
+
+/**
+**      スクリプトによる設定値が書き込まれるヘッダファイル。
+**
+**      @file       .Config/ConfiguredUtilLibs.h.in
+**/
+
+#if !defined( UTILLIBS_CONFIG_INCLUDED_CONFIGURED_UTIL_LIBS_H )
+#    define   UTILLIBS_CONFIG_INCLUDED_CONFIGURED_UTIL_LIBS_H
+
+//========================================================================
+//
+//    Name Space.
+//
+
+/**
+**    スクリプトによって設定された名前空間。
+**/
+
+#define     UTILLIBS_CNF_NS                 @UTILLIBS_CNF_NAMESPACE@
+
+/**
+**    名前空間。
+**/
+
+#define     UTILLIBS_NAMESPACE              UTILLIBS_CNF_NS
+
+#define     UTILLIBS_NAMESPACE_BEGIN        namespace  UTILLIBS_CNF_NS  {
+
+#define     UTILLIBS_NAMESPACE_END          }
+
+#endif
