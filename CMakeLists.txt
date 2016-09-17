@@ -60,6 +60,21 @@ Include_Directories ("${PROJECT_BINARY_DIR}/Include")
 
 ##----------------------------------------------------------------
 ##
+##    パッケージコンフィグレーション。
+##
+
+Configure_File (
+    "${CMAKE_CURRENT_SOURCE_DIR}/${PROJECT_NAME}Config.cmake.in"
+    "${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}Config.cmake"
+    @ONLY
+)
+
+Install (FILES  "${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}Config.cmake"
+        DESTINATION  .
+)
+
+##----------------------------------------------------------------
+##
 ##    サブディレクトリの追加。
 ##
 

@@ -11,5 +11,6 @@ DIST_SUBDIRS    =  .CMake  $(SUBDIRS)
 ##
 
 dist_noinst_DATA    =  \
+        UtilLibsConfig.cmake.in  \
         CMakeLists.txt
 
