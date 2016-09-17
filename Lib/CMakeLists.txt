@@ -15,3 +15,5 @@ Set (OUTPUT_RELEASE_SUFFIX   "Release")
 ##    サブディレクトリの追加。
 ##
 
+Add_SubDirectory (.Config)
+
