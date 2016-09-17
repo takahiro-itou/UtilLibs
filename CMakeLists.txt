@@ -25,8 +25,7 @@ Project (${PROJECT_NAME}   VERSION  1.0.0)
 ##    プロジェクトの基本設定。
 ##
 
-
-Set (CMAKE_SOURCE_DIR      "${PROJECT_SOURCE_DIR}/.CMake")
+Set (CMAKE_INCLUDES_DIR    "${PROJECT_SOURCE_DIR}/.CMake")
 Set (INCTOP_DIR_NAME       "Include")
 Set (LIBTOP_DIR_NAME       "Lib")
 Set (INCPKG_DIR_NAME       "${PROJECT_NAME}")
