@@ -33,17 +33,17 @@ EXTRA_NOINSTDATA            =
 EXTRA_NOINSTHEADERS         =
 
 LIBRARY_SOURCE_FILES        =  \
-        $(EXTRA_LIBRARY_SOURCE_FILES)
+        ${EXTRA_LIBRARY_SOURCE_FILES}
 
 LIBRARY_NOINSTDATA          =  \
         CMakeLists.txt         \
-        $(EXTRA_NOINSTDATA)
+        ${EXTRA_NOINSTDATA}
 
 LIBRARY_NOINSTHEADERS       =  \
-        $(EXTRA_NOINSTHEADERS)
+        ${EXTRA_NOINSTHEADERS}
 
 INCLIB_HEADER_FILES         =  \
-        $(EXTRA_LIBRARY_HEADER_FILES)
+        ${EXTRA_LIBRARY_HEADER_FILES}
 
 INCLIB_NODIST_HEADER_FILES  =  \
         ${INCLIB_BINARY_DIR}/ConfiguredUtilLibs.h
@@ -63,7 +63,7 @@ LIBRARY_SHARED          =
 ##    Compile and Link Options.
 ##
 
-AM_CPPFLAGS             =  -I$(INCTOP_SOURCE_DIR)
+AM_CPPFLAGS             =  -I${INCTOP_SOURCE_DIR}
 AM_CFLAGS               =
 AM_CXXFLAGS             =
 
@@ -78,17 +78,17 @@ module_includedir       =  ${package_includedir}/${MODULE_DIR_NAME}
 module_libdir           =  ${package_libdir}/${MODULE_DIR_NAME}
 
 module_include_HEADERS  =  ${INCLIB_HEADER_FILES}
-module_lib_LTLIBRARIES  =  $(LIBRARY_SHARED)
-module_lib_LIBRARIES    =  $(LIBRARY_STATIC)
+module_lib_LTLIBRARIES  =  ${LIBRARY_SHARED}
+module_lib_LIBRARIES    =  ${LIBRARY_STATIC}
 
-dist_noinst_DATA        =  $(LIBNOINSTDATA)
-dist_noinst_HEADERS     =  $(LIBNOINSTHEADERS)
+dist_noinst_DATA        =  ${LIBRARY_NOINSTDATA}
+dist_noinst_HEADERS     =  ${LIBRARY_NOINSTHEADERS}
 
 ##
 ##    List of (No Dist) Installs.
 ##
 
-nodist_module_include_HEADERS   =  $(INCLIB_NODIST_HEADER_FILES)
+nodist_module_include_HEADERS   =  ${INCLIB_NODIST_HEADER_FILES}
 
 ##
 ##    Build Libraries.

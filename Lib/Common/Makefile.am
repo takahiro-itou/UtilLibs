@@ -46,8 +46,7 @@ INCLIB_HEADER_FILES         =  \
         ${INCLIB_SOURCE_DIR}/UtilLibsSettings.h  \
         ${EXTRA_LIBRARY_HEADER_FILES}
 
-INCLIB_NODIST_HEADER_FILES  =  \
-        ${INCLIB_BINARY_DIR}/ConfiguredUtilLibs.h
+INCLIB_NODIST_HEADER_FILES  =
 
 ##
 ##    List of Libraries.
@@ -89,7 +88,7 @@ dist_noinst_HEADERS     =  ${LIBRARY_NOINSTHEADERS}
 ##    List of (No Dist) Installs.
 ##
 
-nodist_module_include_HEADERS   =  $(INCLIB_NODIST_HEADER_FILES)
+nodist_module_include_HEADERS   =  ${INCLIB_NODIST_HEADER_FILES}
 
 ##
 ##    Build Libraries.
