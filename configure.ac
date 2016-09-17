@@ -99,6 +99,7 @@ dnl   Basic Features.
 dnl
 
 AC_CONFIG_FILES([
+    .CMake/Makefile
     Makefile
 ])
 
