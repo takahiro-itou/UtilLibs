@@ -19,7 +19,7 @@ AC_INIT(
     [UtilityLibrary],
     [0.0.0],
     [BUG-REPORT-ADDRESS],
-    [UtilityLibrary])
+    [UtilLibs])
 
 dnl
 dnl   ツールの出力ディレクトリを指定する。
@@ -104,6 +104,8 @@ AC_CONFIG_FILES([
     .CMake/Makefile
     Bin/Makefile
     Lib/Makefile
+    Lib/.Config/Makefile
+    Lib/Tests/Makefile
     Makefile
 ])
 
