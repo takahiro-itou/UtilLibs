@@ -7,5 +7,6 @@
 ##    List of Installs.
 ##
 
-dist_noinst_DATA    =
+dist_noinst_DATA    =  \
+    BuildLibraryCommon.cmake
 
