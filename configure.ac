@@ -38,6 +38,8 @@ dnl   プロジェクトの基本設定。
 dnl
 
 AC_CONFIG_SRCDIR([Makefile.am])
+AC_CONFIG_HEADER([Include/.UtilLibs.Config.h:Include/UtilLibs/.Config/Config.h.in])
+
 
 dnl
 dnl   デフォルトのコンパイルオプション
@@ -101,6 +103,10 @@ dnl
 AC_CONFIG_FILES([
     .CMake/Makefile
     Makefile
+])
+
+AC_CONFIG_FILES([
+    Include/UtilLibs/.Config/ConfiguredUtilLibs.h
 ])
 
 dnl

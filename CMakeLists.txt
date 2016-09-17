@@ -44,6 +44,14 @@ Set (INCLUDE_BINARY_DIR    "${INCTOP_BINARY_DIR}/${INCPKG_DIR_NAME}")
 Set (UTILLIBS_CNF_NAMESPACE  UtilityLibrary)
 
 ##
+##    設定を書き込んだファイルを生成。
+##
+
+Configure_File (
+    "${INCLUDE_SOURCE_DIR}/.Config/ConfiguredUtilLibs.h.in"
+    "${INCLUDE_BINARY_DIR}/.Config/ConfiguredUtilLibs.h")
+
+##
 ##    インクルードパスの設定。
 ##
 
