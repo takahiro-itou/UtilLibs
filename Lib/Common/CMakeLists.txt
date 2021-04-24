@@ -31,5 +31,4 @@ Set (MODULE_NEEDS_LIBRARIES
 ##    ビルドとインストールの設定。
 ##
 
-Include (${CMAKE_INCLUDES_DIR}/BuildLibraryCommon.cmake)
-
+Include (${COMMON_CMAKE_DIR}/BuildLibraryCommon.cmake)

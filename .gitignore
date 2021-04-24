@@ -3,7 +3,7 @@
 Makefile
 Makefile.in
 Tests/Makefile.am
-*.h.in
+Config.h.in
 
 /.hg/
 /.Config/

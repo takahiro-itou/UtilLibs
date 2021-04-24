@@ -2,6 +2,8 @@
 syntax: glob
 
 syntax: regexp
+^\.git/
+
 Makefile$
 Makefile\.in$
 \.h\.in$
