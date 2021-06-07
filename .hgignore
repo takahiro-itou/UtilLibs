@@ -8,7 +8,7 @@ Makefile$
 Makefile\.in$
 \.h\.in$
 ^\.Config/
-^\.M4/InitAutomake.m4$
+^\.M4/InitAutoMake.m4$
 ^Projects/
 ^References$
 ^aclocal\.m4$

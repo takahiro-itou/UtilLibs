@@ -7,10 +7,12 @@ Config.h.in
 
 /.hg/
 /.Config/
-/.M4/InitAutomake.m4
+/.M4/InitAutoMake.m4
 /Projects/
 /References/
 /aclocal.m4
 /autom4te.cache/
 /configure
+/Lib/*/Tests/CMakeLists.txt
+/Lib/*/Tests/Makefile.am
 
