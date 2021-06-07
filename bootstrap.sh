@@ -1,9 +1,10 @@
-#! /bin/bash  -x
+#! /usr/bin/env  bash
+
+set  -x
 
 mkdir  -p  .Config
 
-chmod  u+x  setuplinks.sh
-./setuplinks.sh
+/usr/bin/env  bash  -x  setuplinks.sh
 
 aclocal  -I  .Config  \
   &&  autoheader      \
