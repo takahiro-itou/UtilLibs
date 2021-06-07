@@ -14,5 +14,6 @@ Makefile\.in$
 ^aclocal\.m4$
 ^autom4te\.cache\/
 ^configure$
-Tests/Makefile.am
+^Lib/.*/Tests/CMakeLists.txt
+^Lib/.*/Tests/Makefile.am
 
